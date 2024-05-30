@@ -1,9 +1,9 @@
 {
   "name": "nodejs",
   "version": "1.0.0",
-  "main": "index.js", // تأكد من أن هذا يشير إلى الملف الرئيسي لتطبيقك
+  "main": "index.js", 
   "scripts": {
-    "start": "node index.js" // أو الملف الرئيسي لتطبيقك
+    "start": "node index.js"   
   },
   "dependencies": {
     "express": "^4.17.1",
