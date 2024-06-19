@@ -17,4 +17,4 @@ ENV PORT=8080
 EXPOSE 8080
 
 # الأمر الذي سيتم تنفيذه عند بدء الحاوية
-CMD ["python", "main.py"]
+CMD ["python", "index.js"]
