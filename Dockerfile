@@ -1,20 +1,20 @@
-# استخدم صورة Python الرسمية كنقطة انطلاق
-FROM python:3.9-slim
+# استخدم صورة Node.js الرسمية كنقطة انطلاق
+FROM node:14
 
 # تعيين دليل العمل في الحاوية
 WORKDIR /app
 
-# نسخ جميع ملفات المشروع إلى دليل العمل
-COPY . /app
+# نسخ ملفات package.json و package-lock.json
+COPY package*.json ./
 
-# تثبيت المتطلبات
-RUN pip install --no-cache-dir -r requirements.txt
+# تثبيت التبعيات
+RUN npm install
 
-# تعيين المتغيرات البيئية (اختياري)
-ENV PORT=8080
+# نسخ بقية ملفات المشروع
+COPY . .
 
-# فتح المنفذ
+# تعيين المنفذ الذي سيتم تشغيل التطبيق عليه
 EXPOSE 8080
 
 # الأمر الذي سيتم تنفيذه عند بدء الحاوية
-CMD ["python", "index.js"]
+CMD ["node", "index.js"]
