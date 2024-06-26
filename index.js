@@ -10,26 +10,12 @@ const PORT = process.env.PORT || 3000;
 
 // قائمة مفاتيح API
 const apiKeys = [
-    'GTGMge9jp6fZxwSyw7UJhLp1',
-    'ao5M2kCyE2hfFM5khopm9UNU',
-    'qcq3ZHohggyiUG1DNbAiEqQo',
-    'zsxECA1EfK9RrddQjPixxs6z', 
-    'BNphsxzXkFHQ67MaRY2D6dwv', 
-    'sRabtuSMwvHwUryYZ9YDxq8B', 
-    'LbrncqvPgoMq6jZRMUt1sxXx', 
-    '2acNsYifUtMyYQbmf5T6UmQQ', 
-    'kufRgbRg3MG6Lr1SMcoxBARn', 
-    'J7yYgrFuK2M2uQrR7RZqZPSN', 
-    'HJ8H9W8D3U2s9ZSjsvuHoChU', 
-    'qbTfWqgWMXt1kfTszNPLtzht', 
-    'roF5Nv7JfE4dPZEKcbK644Qh', 
-    'FedJKvJSKewZVFj2oXcK9Gho', 
-    'amy2oknBoUBA27v45EMQj5XW', 
-    'pGQoCueBMrPXFwRiFVLmkAzN', 
-    'GQBUyeeqPdb7TUxEgLWqHdsp', 
-    'uuCqJiDqd9mHFmK96Jo664VR', 
-    'kQEbxWM4eAJKk8oR7wK5BKJf', 
-    'ZWFeDySEEoph6xKURzmQzidZ'
+    // GTGMge9jp6fZxwSyw7UJhLp1
+    'VaErJWCS5B1U1g5xoMDNGGY7', 
+    'TJwHDHyovDrvXz7S5RsWJbps', 
+    'HwrdKcmQXdsLWkKR9mw7ha6v', 
+    '3pXoEiXdgiQGDHYubb8HEKqS', 
+    'T9YojGQGMsuZveYPMvcNbArZ'
     // أضف المزيد من مفاتيح API هنا
 ];
 
