@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "index.js",
   "environments": {
     "production": {
       "build": "npm run build",
