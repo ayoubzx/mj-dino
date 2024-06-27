@@ -1,0 +1,9 @@
+{
+  "name": "my-app",
+  "environments": {
+    "production": {
+      "build": "npm run build",
+      "publish": "./build"
+    }
+  }
+}
