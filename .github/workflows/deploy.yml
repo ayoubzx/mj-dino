@@ -21,7 +21,7 @@ jobs:
       - name: Install Deno
         uses: denoland/setup-deno@v2
         with:
-          deno-version: v1.x
+          deno-version: v2.x
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -32,12 +32,12 @@ jobs:
         run: "npm install "
 
       - name: Build step
-        run: "npm start "
+        run: "node index.js"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "ayoubzx-bg-15"
+          project: "ayoubzx-bg-98"
           entrypoint: "index.js"
           root: ""
           
