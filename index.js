@@ -7,7 +7,8 @@ import * as path from "node:path";
 
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = Deno.env.get("PORT") || 3000;
+
 
 // قائمة مفاتيح API
 const apiKeys = [
