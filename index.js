@@ -1,9 +1,10 @@
-const express = require('express');
-const multer = require('multer');
-const FormData = require('form-data');
-const axios = require('axios');
-const fs = require('fs');
-const path = require('path');
+import express from "npm:express@^4.18.2";
+import multer from "npm:multer@^1.4.5-lts.1";
+import FormData from "npm:form-data@^4.0.0";
+import axios from "npm:axios@^1.4.0";
+import * as fs from "node:fs";
+import * as path from "node:path";
+
 
 const app = express();
 const PORT = process.env.PORT || 3000;
