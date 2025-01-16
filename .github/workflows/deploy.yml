@@ -29,15 +29,12 @@ jobs:
           node-version: lts/*
 
       - name: Install step
-        run: "npm install "
-
-      - name: Build step
-        run: "node index.js"
+        run: "deno run --allow-net --import-map=import_map.json index.js"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "ayoubzx-bg-98"
+          project: "ayoubzx-mj-dino-75"
           entrypoint: "index.js"
           root: ""
           
