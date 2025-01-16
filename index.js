@@ -1,7 +1,8 @@
 // Import required Deno modules
-import { Application, Router } from "https://deno.land/x/oak/mod.ts";
-import { MongoClient } from "https://deno.land/x/mongo/mod.ts";
-import axiod from "https://deno.land/x/axiod/mod.ts";
+import { Application, Router } from "oak/mod.ts";
+import { MongoClient } from "mongo/mod.ts";
+import axiod from "axiod";
+
 
 const app = new Application();
 const router = new Router();
